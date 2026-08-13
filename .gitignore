@@ -1,0 +1,16 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Obsidian (config local del vault, no compartir)
+.obsidian/
+
+# Temporales
+*.tmp
+~$*
+
+# Entornos y dependencias (por si se agregan tools/CLI más adelante)
+__pycache__/
+*.pyc
+.venv/
+node_modules/

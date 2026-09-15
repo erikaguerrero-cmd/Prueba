@@ -40,10 +40,21 @@ sobre un **único conjunto de transacciones**. Es la arquitectura central de tod
 ## Por qué importa
 
 Permite que Manta cumpla el reporte SFC bajo NIIF 4 (2026–2027) **y** consolide bajo NIIF 17 desde el inicio, de
-modo que la **convergencia regulatoria de 2028** (Decreto 0217/2026) sea directa, sin reconstrucción retrospectiva.
+modo que la **convergencia regulatoria de 2028** (Decreto 0217/2026) sea directa.
+
+## Precisiones (README + spec de emisión)
+
+- **CUIF de 10 dígitos** obligatorio desde **enero 2027** para el libro NIIF 17 (principal).
+- El README lo describe como **"doble libro"** (NIIF 17 primario + NIIF 4/CUIF secundario), omitiendo el fiscal;
+  el manual lista los **tres**. No es contradicción de fondo — el fiscal es el tercero.
+
+> ⚠️ **Método de transición NIIF 17 — pendiente de aclarar:** el manual dice que Manta aplica NIIF 17 desde el
+> inicio **sin disposiciones de transición** (entidad nueva); el README y la spec de emisión hablan de **enfoque
+> retrospectivo completo** con efecto 1-ene-2028 (por eso se capturan campos de trazabilidad desde la primera
+> emisión). Ver [[conceptos/niif-17]] y [[fuentes/contexto-proyecto-manta]].
 
 ## Referencias
 
 - Síntesis: [[sintesis/libros-contables-de-manta]]
-- Relacionado con: [[conceptos/columna-contexto]] · [[conceptos/cuif]] · [[conceptos/niif-17]] · [[conceptos/niif-4]]
-- Aparece en: [[fuentes/manual-politicas-contables-manta]] (Parte I §3)
+- Relacionado con: [[conceptos/columna-contexto]] · [[conceptos/cuif]] · [[conceptos/niif-17]] · [[conceptos/niif-4]] · [[entidades/dian]]
+- Aparece en: [[fuentes/manual-politicas-contables-manta]] (Parte I §3) · [[fuentes/contexto-proyecto-manta]]

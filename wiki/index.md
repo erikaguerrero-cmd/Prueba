@@ -1,7 +1,7 @@
 ---
 tipo: index
 titulo: Índice del Cerebro Digital
-actualizado: 2026-08-13
+actualizado: 2026-09-15
 ---
 
 # Índice — Cerebro Digital del Área
@@ -22,7 +22,11 @@ Organizado por categoría. Se actualiza en cada ingesta.
 - [[entidades/adres]] — Receptor de transferencia (9,5%) y contribución (52%) del SOAT.
 - [[entidades/ansv]] — Receptor de la transferencia del 3% de la prima SOAT.
 - [[entidades/netsuite]] — ERP con arquitectura multi-book y columna CONTEXTO.
-- [[entidades/erika-guerrero]] — Controller de Manta y autora del manual de políticas.
+- [[entidades/erika-guerrero]] — Controller de Manta, PM del Proyecto Orión y autora del manual.
+- [[entidades/dian]] — Autoridad tributaria; libro fiscal y facturación electrónica.
+- [[entidades/proyecto-orion]] — Proyecto de implementación de NetSuite (equipo Grupo R5).
+- [[entidades/grupo-r5]] — Equipo IT que desarrolla el Proyecto Orión.
+- [[entidades/juan-felipe-restrepo]] — Actuario responsable (tercerizado); autor de la Nota Técnica SOAT.
 
 ## 📚 Conceptos
 
@@ -41,16 +45,23 @@ Organizado por categoría. Se actualiza en cada ingesta.
 - [[conceptos/instrumentos-financieros-niif-9]] — TES, CDT, efectivo; clasificación y ECL.
 - [[conceptos/patrimonio-y-solvencia]] — Patrimonio técnico/adecuado, solvencia, SIAR.
 - [[conceptos/marco-normativo]] — EOSF, CBF, NIIF, SOAT; jerarquía y cronograma a NIIF 17.
+- [[conceptos/nota-tecnica-soat]] — Nota Técnica actuarial MANTA-NT-SOAT (V14); documento central del trámite SFC.
+- [[conceptos/parametros-regulados-soat]] — GA, CI, ADRES, ANSV, θ; decisiones internas y Factor RSONA.
+- [[conceptos/camara-de-compensacion]] — Documento 2 de la emisión; valor del motor actuarial.
 
 ## ⚙️ Funciones
 
 - [[funciones/cierre-contable-mensual]] — Secuencia de 9 pasos con posteo dual y cuadre CONTEXTO/CUIF.
 - [[funciones/calculo-de-reservas-tecnicas]] — Cálculo actuarial mensual y posteo dual por libro.
 - [[funciones/segregacion-de-funciones]] — Matriz de 7 roles en NetSuite; incompatibilidades de control.
+- [[funciones/emision-de-poliza-soat]] — Proceso PAS→NetSuite→DIAN; estructura de 3 documentos contables.
 
 ## 📄 Fuentes
 
 - [[fuentes/manual-politicas-contables-manta]] — Manual de Políticas Contables y Financieras de Manta (48 secciones).
+- [[fuentes/contexto-proyecto-manta]] — README maestro del proyecto (constitución, Orión, reservas). 🔒 confidencial.
+- [[fuentes/emision-poliza-soat-desarrollo]] — Spec de desarrollo de la emisión de póliza (PAS→NetSuite→DIAN, v3.0).
+- [[fuentes/diagramas-flujo-reservas]] — Tres diagramas SVG: reserva avisada (RSA) vs. IBNR agregada (RSONA).
 
 ## 🔬 Síntesis
 

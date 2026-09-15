@@ -28,7 +28,8 @@ estado: vigente
 - Mejor estimación de flujos de cumplimiento de siniestros ya ocurridos, **descontada + con
   [[conceptos/ajuste-por-riesgo-no-financiero|ajuste por riesgo]]** (percentil 75). Calculado por el Motor Actuarial.
 - Componentes conceptuales (no traducción de saldos): RSA ↔ RBNS (avisados); RSONA ↔ IBNR+IBNER;
-  RGIAS/ULAE ↔ flujos de gastos de gestión. Ver [[conceptos/reservas-tecnicas-soat]].
+  RGIAS/ULAE ↔ flujos de gastos de gestión. Ver [[conceptos/reservas-tecnicas-soat]] y los flujos avisado vs.
+  IBNR en [[fuentes/diagramas-flujo-reservas]].
 - El **desenrollo del descuento** (*unwinding*) se reconoce como resultado financiero de seguros.
 
 ## Mapeo con las reservas de ley

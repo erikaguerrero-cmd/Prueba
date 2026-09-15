@@ -20,7 +20,11 @@ en [[entidades/netsuite|NetSuite]]) sobre **un único conjunto de transacciones*
 |-------|-----|----------------|-----------|
 | **[[conceptos/niif-17|NIIF 17]]** | **Principal** | NIIF 17 (Decreto 2420/2015) | Estados financieros de consolidación y base de decisión; **reporte regulatorio desde 2028**. |
 | **[[conceptos/niif-4|NIIF 4]] / [[conceptos/cuif|CUIF]]** | **Secundario** | NIIF 4 + Decreto 2555/2010 (mod. 1531/2022); CBF Parte 3 Cap. 2 | **Reporte y cumplimiento SFC durante 2026–2027**. |
-| **Fiscal** | **Tercero** | Estatuto Tributario; Decreto 2420/2015 art. 4 | Impuesto de renta, retenciones, medios magnéticos **[[entidades/adres|DIAN]]**. |
+| **Fiscal** | **Tercero** | Estatuto Tributario; Decreto 2420/2015 art. 4 | Impuesto de renta, retenciones, medios magnéticos **[[entidades/dian|DIAN]]**. |
+
+> **Nota:** el [[fuentes/contexto-proyecto-manta|README del proyecto]] lo describe como **"doble libro"** (NIIF 17
+> primario + NIIF 4/CUIF secundario) porque se enfoca en lo contable/regulatorio; el fiscal es el tercero. El
+> **CUIF de 10 dígitos** es obligatorio para el libro NIIF 17 desde **enero 2027**.
 
 ## Cómo conviven los libros
 

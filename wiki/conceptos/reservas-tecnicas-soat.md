@@ -11,8 +11,14 @@ estado: vigente
 # Reservas técnicas SOAT
 
 **Definición corta:** Reservas de ley del ramo [[conceptos/soat|SOAT]] que Manta constituye, calcula y reporta
-mensualmente (área actuarial, validadas por el Actuario Responsable). Base: Decreto 2555/2010 (Libro 31, mod.
-1531/2022), CE 035/2015, CE 025/2017 y la **Nota Técnica SOAT V14**.
+mensualmente (área actuarial, validadas por el Actuario Responsable [[entidades/juan-felipe-restrepo|Juan Felipe
+Restrepo O.]]). Base: Decreto 2555/2010 (Libro 31, mod. 1531/2022), CE 035/2015, CE 025/2017 y la
+**[[conceptos/nota-tecnica-soat|Nota Técnica SOAT V14]]**. Parámetros: ver [[conceptos/parametros-regulados-soat]].
+
+> **Avisado vs. IBNR (diagramas):** el flujo de la reserva **avisada (RSA)** y el de la **IBNR agregada (RSONA)**
+> están ilustrados en [[fuentes/diagramas-flujo-reservas]]. La RSA se constituye a la **fecha de aviso** del
+> siniestro (no cuando se contabiliza la factura del proveedor); la factura del proveedor espera la auditoría
+> médica (glosas) como control de pago, no como disparador contable.
 
 ## Inventario de reservas
 
@@ -56,5 +62,5 @@ independiente** (no [[conceptos/columna-contexto|CONTEXTO]]).
 
 ## Referencias
 
-- Relacionado con: [[conceptos/lrc-y-lic]] · [[funciones/calculo-de-reservas-tecnicas]] · [[conceptos/reaseguro-quota-share]]
-- Aparece en: [[fuentes/manual-politicas-contables-manta]] (Parte III)
+- Relacionado con: [[conceptos/lrc-y-lic]] · [[funciones/calculo-de-reservas-tecnicas]] · [[conceptos/reaseguro-quota-share]] · [[conceptos/parametros-regulados-soat]] · [[conceptos/nota-tecnica-soat]] · [[fuentes/diagramas-flujo-reservas]]
+- Aparece en: [[fuentes/manual-politicas-contables-manta]] (Parte III) · [[fuentes/contexto-proyecto-manta]] · [[fuentes/diagramas-flujo-reservas]]

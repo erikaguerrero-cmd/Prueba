@@ -29,7 +29,18 @@ estado: vigente
   transitan por el estado de resultados** ni por el flujo de operación propia.
 - Las transferencias (costo) sí afectan la evaluación de onerosidad (gravan la prima).
 
+## Cuentas en la factura (spec de emisión)
+
+En el Documento 1 de la [[funciones/emision-de-poliza-soat|emisión de póliza]], la prima es ingreso; ADRES y RUNT
+golpean **pasivo** (recaudo a terceros):
+
+| Artículo | Cuenta | Movimiento |
+|----------|--------|-----------|
+| Prima | 4159030201 | Crédito · Ingreso |
+| Contribución ADRES | 2990400005 | Crédito · Pasivo |
+| Tasa RUNT | 2990400006 | Crédito · Pasivo |
+
 ## Referencias
 
-- Relacionado con: [[entidades/adres]] · [[entidades/ansv]] · [[conceptos/soat]]
-- Aparece en: [[fuentes/manual-politicas-contables-manta]] (Parte V §19-20; Parte II §8)
+- Relacionado con: [[entidades/adres]] · [[entidades/ansv]] · [[conceptos/soat]] · [[conceptos/parametros-regulados-soat]] · [[funciones/emision-de-poliza-soat]]
+- Aparece en: [[fuentes/manual-politicas-contables-manta]] (Parte V §19-20; Parte II §8) · [[fuentes/emision-poliza-soat-desarrollo]]

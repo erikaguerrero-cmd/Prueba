@@ -38,3 +38,22 @@ revisión de Alex Swift). Movido a `raw/documentos/manual-politicas-contables-fi
 
 Resuelta con la ingesta del manual. Respuesta archivada en [[sintesis/libros-contables-de-manta]]:
 tres libros multi-book (NIIF 17 principal · NIIF 4/CUIF secundario · Fiscal).
+
+## [2026-09-15] ingest | Lote de 5 fuentes (README proyecto, spec de emisión, 3 diagramas de reservas)
+
+Ingesta en lote de los archivos subidos a `raw/`. Reorganizados: 2 en `raw/documentos/`, 3 SVG en `raw/assets/`.
+
+- **Fuentes creadas (3):** [[fuentes/contexto-proyecto-manta]] (README maestro, 🔒 confidencial),
+  [[fuentes/emision-poliza-soat-desarrollo]] (spec v3.0), [[fuentes/diagramas-flujo-reservas]] (3 SVG).
+- **Entidades creadas (5):** dian, proyecto-orion, grupo-r5, juan-felipe-restrepo (+ roster de devs en Orión).
+- **Conceptos creados (3):** nota-tecnica-soat, parametros-regulados-soat, camara-de-compensacion.
+- **Funciones creadas (1):** emision-de-poliza-soat (3 documentos, flujo de 8 pasos, cuentas, brechas E2E).
+- **Actualizadas (12):** netsuite, erika-guerrero, columna-contexto, estructura-multi-book, niif-17,
+  reservas-tecnicas-soat, lrc-y-lic, soat, transferencias-adres-ansv, marco-normativo, sintesis/libros
+  (corregido enlace DIAN), overview, index.
+- ⚠️ **Contradicción nueva marcada:** método de transición NIIF 17 — "sin disposiciones de transición" (manual)
+  vs. "enfoque retrospectivo completo" (README/spec). Ver [[conceptos/niif-17]].
+- **Datos nuevos:** CUIF 10 dígitos ene-2027; ESFA apertura 1-ene-2026; testing SFC 15–30 oct 2026; LatamReady
+  terminado → Grupo R5; actuario Juan Felipe Restrepo (NT V14); parámetros GA/CI/θ; cuentas contables de emisión.
+- **Fuentes por ingerir (ampliadas):** Nota Técnica SOAT (V12→V14), Hoja de Trabajo SOAT.xlsx, Modelo
+  Financiero.xlsx, Estudio de Incidencia/Factibilidad.pdf, Manual SIAR.pdf, "Ajustes al Plan de Cuentas".

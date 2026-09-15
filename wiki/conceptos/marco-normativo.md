@@ -22,7 +22,9 @@ cumplimiento de [[entidades/manta-seguros|Manta Seguros]].
 | **CBJ** (Circular Básica Jurídica) | CE 006 de 2025 | SARLAFT, gobierno corporativo, protección al consumidor. |
 | Marco NIIF (Grupo 1) | Decreto 2420 de 2015 y mod. | Adopción de NIIF. Decreto 1271/2024 incorporó NIIF 17 (vigencia aplazada a 2028, Dcto 0217/2026). |
 | Régimen prudencial (reservas, inversiones, patrimonio) | Decreto 2555/2010 (Libro 31), mod. 1531/2022 | Marco vigente 2026–2027. |
-| Normativa SOAT | Ley 769/2002; Dctos 056/2015, 780/2016, 2644/2022; Leyes 1843/2017 (ANSV), 2161/2021 (ADRES) | Obligatoriedad, coberturas, topes, tarifas, transferencias. |
+| Normativa SOAT | Ley 769/2002; Dctos 056/2015, 780/2016, 2644/2022; **Decreto 2312/2023** (tarifa); Leyes 1843/2017 (ANSV), 2161/2021 (ADRES) | Obligatoriedad, coberturas, topes, tarifas, transferencias. |
+| Cargos de intermediación (CI 8%) | **Sentencia C-395 de 2022** | Parámetro regulado del SOAT. |
+| Nota Técnica SFC SOAT | v9.0 (ene 2026) + tarifas Anexo 1 CBJ | Base de parámetros y tarifas (no se reproduce). |
 
 ## Jerarquía normativa (en caso de conflicto)
 
@@ -33,10 +35,13 @@ cumplimiento de [[entidades/manta-seguros|Manta Seguros]].
 
 ## Cronograma de convergencia a NIIF 17
 
+- **ESFA de apertura:** 1-ene-2026. **Testing obligatorio SFC:** 15–30 oct 2026 (corte 30 jun 2026).
 - **2026–2027:** reporte regulatorio bajo [[conceptos/niif-4|NIIF 4]]/[[conceptos/cuif|CUIF]]; reservas bajo
   Decreto 2555/2010.
-- **1-ene-2028:** entra [[conceptos/niif-17|NIIF 17]] (Dcto 0217/2026), se deroga NIIF 4, entran CBF Parte 2
-  Cap. 3 (reservas) y Parte 3 Cap. 8 (información financiera de contratos de seguro).
+- **Enero 2027:** CUIF de **10 dígitos** obligatorio para el libro NIIF 17.
+- **1-ene-2028:** entra [[conceptos/niif-17|NIIF 17]] (**Decretos 217 y 219 de 2026**), se deroga NIIF 4, entran
+  CBF Parte 2 Cap. 3 (reservas) y Parte 3 Cap. 8 (información financiera de contratos de seguro). Transición por
+  **enfoque retrospectivo completo** (ver matiz en [[conceptos/niif-17]]).
 
 > ⚠️ **Norma en revisión:** el **Decreto 1272 de 2024 (art. 2.31.4.1.5)** — método de Costo de Capital para el
 > [[conceptos/ajuste-por-riesgo-no-financiero|ajuste por riesgo]] — **no** aparece en este manual pero sí en el
